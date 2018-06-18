@@ -1,0 +1,67 @@
+html
+{
+  background-color:  rgba(135, 133, 129, 1);
+  margin:0; padding:0; height:100%; width:100%;
+}
+
+header
+{
+  background-color:rgba(252,48,60);
+}
+
+footer
+{
+  background-color:rgba(252,48,60);
+}
+body
+{
+  font-family: Arial;
+  margin:0; padding:0; height:100%; width:100%;
+}
+
+p
+{
+  font-size: 12pt;
+  line-height: 1.4em;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+li
+{
+  line-height: 1.4em;
+}
+
+div.Option_Menu
+{
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  height: 50px;
+  vertical-align: middle;
+  resize:both;
+  overflow:visible;
+}
+
+img.Logo_Web
+{
+  margin-top: 5px;
+}
+
+a.button_test:active
+{
+  background-image: url("Images/button_1.png");
+}
+a.button_test:active
+{
+  background-image: url("Images/button_1.png");
+}
+
+#Logo_Web
+{
+  vertical-align: -9pt;
+}
