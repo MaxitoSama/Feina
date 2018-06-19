@@ -1,7 +1,12 @@
-html
+html 
 {
-  background-color:  rgba(135, 133, 129, 1);
-  margin:0; padding:0; height:100%; width:100%;
+    background-color: rgba(135, 133, 129, 1);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/Background.png");
+    background-size: cover;
 }
 
 header
@@ -16,7 +21,9 @@ footer
 body
 {
   font-family: Arial;
-  margin:0; padding:0; height:100%; width:100%;
+  height:2000px; width:1400px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 p
@@ -45,12 +52,62 @@ div.Option_Menu
   vertical-align: middle;
   resize:both;
   overflow:visible;
+  text-align:center;
 }
 
-img.Logo_Web
-{
-  margin-top: 5px;
+img.Logo_Web {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
 }
+
+#Navigation {
+    width: 1100px;
+    height:50px;
+    padding:0px;
+    margin: 0px auto;
+}
+
+#Navigation ul
+{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+    #Navigation li {
+        width: 200px;
+        float: left;
+        margin-top: 5px;
+        border: 1px solid green;
+        background-image: url(Images/spriteSheet.png);
+        background-position: -13px -86px;
+    }
+
+#Navigation a
+{
+    display:block;
+    width:200px;
+    height:40px;
+    line-height:40px;
+
+}
+
+nav.Option_Menu
+{
+    position:absolute;
+    padding-bottom:100px;
+}
+
+img.menu_background {
+    object-fit: none;
+    object-position: -13px -84px;
+    height: 65px;
+    width: 1034px;
+    float:right;
+}
+
 
 a.button_test:active
 {
@@ -61,7 +118,3 @@ a.button_test:active
   background-image: url("Images/button_1.png");
 }
 
-#Logo_Web
-{
-  vertical-align: -9pt;
-}
