@@ -7,16 +7,17 @@ html
     width: 100%;
     background-image: url("Images/Background.png");
     background-size: cover;
+    background-repeat:no-repeat;
 }
 
 header
 {
-  background-color:rgba(252,48,60);
+  background-color:rgba(252,48,60,1);
 }
 
 footer
 {
-  background-color:rgba(252,48,60);
+  background-color:rgba(252,48,60,1);
 }
 body
 {
@@ -24,6 +25,7 @@ body
   height:2000px; width:1400px;
   margin-left:auto;
   margin-right:auto;
+  background-color:white;
 }
 
 p
@@ -47,8 +49,8 @@ div.Option_Menu
 {
   background-color: white;
   color: black;
-  font-size: 20pt;
-  height: 50px;
+  font-size: 16pt;
+  height: 100px;
   vertical-align: middle;
   resize:both;
   overflow:visible;
@@ -58,31 +60,29 @@ div.Option_Menu
 img.Logo_Web {
     display: inline-block;
     float: left;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 #Navigation {
     width: 1100px;
     height:50px;
-    padding:0px;
+    padding:25px;
     margin: 0px auto;
 }
 
-#Navigation ul
-{
-    list-style-type:none;
-    margin:0px;
-    padding:0px;
-    text-align:center;
-}
+    #Navigation ul {
+        list-style-type: none;
+        margin: 0px;
+        margin-left: 10px;
+        padding: 0px;
+        text-align: center;
+    }
 
     #Navigation li {
         width: 200px;
         float: left;
         margin-top: 5px;
-        border: 1px solid green;
-        background-image: url(Images/spriteSheet.png);
-        background-position: -13px -86px;
     }
 
 #Navigation a
@@ -94,20 +94,57 @@ img.Logo_Web {
 
 }
 
-nav.Option_Menu
+#link_1 {
+    background-image: url(Images/spriteSheet.png);
+    background-position: -47px -84px;
+}
+#link_2 {
+    background-image: url(Images/spriteSheet.png);
+    background-position: -247px -84px;
+}
+#link_3 {
+    background-image: url(Images/spriteSheet.png);
+    background-position: -447px -84px;
+}
+#link_4 {
+    background-image: url(Images/spriteSheet.png);
+    background-position: -647px -84px;
+}
+#link_5 {
+    background-image: url(Images/spriteSheet.png);
+    background-position: -847px -84px;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    background-color: rgba(252,48,60,1);
+    margin:0px;
+    padding: 0;
+}
+
+div.Portada {
+    width: 1500px;
+    height: 600px;
+    background: url(Images/Portada.jpg) 0px -100px;
+    background-size:1400px;
+    background-repeat: no-repeat;
+    top:0;
+	left:0;
+}
+
+div.Menu_Portada
 {
-    position:absolute;
-    padding-bottom:100px;
+    position:relative;
+    display:block;
+    background-color:black;
+    width:700px;
+    height:500px;
+    margin:0 auto;
+    right:5%;
+    top:10%;
 }
-
-img.menu_background {
-    object-fit: none;
-    object-position: -13px -84px;
-    height: 65px;
-    width: 1034px;
-    float:right;
-}
-
 
 a.button_test:active
 {
