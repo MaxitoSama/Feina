@@ -19,13 +19,15 @@ footer
 {
   background-color:rgba(252,48,60,1);
 }
-body
-{
-  font-family: Arial;
-  height:2000px; width:1400px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:white;
+body {
+    font-family: Arial;
+    height: 2000px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("Images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 p
@@ -45,16 +47,15 @@ li
   line-height: 1.4em;
 }
 
-div.Option_Menu
-{
-  background-color: white;
-  color: black;
-  font-size: 16pt;
-  height: 100px;
-  vertical-align: middle;
-  resize:both;
-  overflow:visible;
-  text-align:center;
+div.Option_Menu {
+    background-color: white;
+    color: black;
+    font-size: 16pt;
+    height: 100px;
+    vertical-align: middle;
+    resize: both;
+    overflow: visible;
+    text-align: center;
 }
 
 img.Logo_Web {
@@ -146,9 +147,79 @@ div.Menu_Portada
     top:10%;
 }
 
-a.button_test:active
+#Info {
+    background: url(Images/spriteSheet.png);
+    background-position:-20px -464px;
+    height:670px;
+    width:1359px;
+    margin-top:50px;
+    margin-left:20px;
+    color:white;
+}
+
+#Column_1
 {
-  background-image: url("Images/button_1.png");
+    float:left;
+    width:330px;
+    min-height:350px;
+    margin-left:10px;
+}
+#Column_2 {
+    float: left;
+    width: 330px;
+    min-height: 350px;
+    margin-left:10px;
+}
+#Column_3 {
+    float: right;
+    width: 330px;
+    min-height: 350px;
+    margin-right:10px;
+}
+#Column_4 {
+    float: right;
+    width: 330px;
+    min-height: 350px;
+}
+
+#Image_1 {
+    background: url(Images/spriteSheet.png);
+    background-position: -20px -464px;
+    height: 225px;
+    width: 225px;
+    margin-left: 53px;
+    margin-bottom: 50px;
+}
+
+#Image_2 {
+    background: url(Images/spriteSheet.png);
+    background-position: -20px -464px;
+    height: 225px;
+    width: 225px;
+    margin-left: 53px;
+    margin-bottom: 50px;
+}
+
+#Image_3 {
+    background: url(Images/spriteSheet.png);
+    background-position: -20px -464px;
+    height: 225px;
+    width: 225px;
+    margin-left: 53px;
+    margin-bottom: 50px;
+}
+
+#Image_4 {
+    background: url(Images/spriteSheet.png);
+    background-position: -20px -464px;
+    height: 225px;
+    width: 225px;
+    margin-left: 53px;
+    margin-bottom: 50px;
+}
+
+a.button_test:active {
+    background-image: url("Images/button_1.png");
 }
 a.button_test:active
 {
