@@ -10,24 +10,22 @@ html
     background-repeat:no-repeat;
 }
 
-header
-{
-  background-color:rgba(252,48,60,1);
+header {
+ 
+    background-color: black;
 }
 
-footer
-{
-  background-color:rgba(252,48,60,1);
-}
+
 body {
     font-family: Arial;
-    height: 2000px;
+    height: 1770px;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("Images/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 0px;
 }
 
 p
@@ -149,73 +147,105 @@ div.Menu_Portada
 
 #Info {
     background: url(Images/spriteSheet.png);
-    background-position:-20px -464px;
-    height:670px;
-    width:1359px;
-    margin-top:50px;
-    margin-left:20px;
-    color:white;
+    background-position: -20px -464px;
+    height: 500px;
+    width: 1359px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: white;
 }
 
 #Column_1
 {
     float:left;
-    width:330px;
-    min-height:350px;
-    margin-left:10px;
+    width:250px;
+    min-height:100px;
+    margin-left:50px;
 }
 #Column_2 {
     float: left;
-    width: 330px;
-    min-height: 350px;
-    margin-left:10px;
+    width: 250px;
+    min-height: 100px;
+    margin-left: 90px;
 }
 #Column_3 {
     float: right;
-    width: 330px;
-    min-height: 350px;
-    margin-right:10px;
+    width: 250px;
+    min-height: 100px;
+    margin-right: 80px;
 }
 #Column_4 {
     float: right;
-    width: 330px;
-    min-height: 350px;
+    width: 250px;
+    min-height: 100px;
+    margin-right: 50px;
+}
+
+p.Info_titles
+{
+    text-align:center;
 }
 
 #Image_1 {
     background: url(Images/spriteSheet.png);
-    background-position: -20px -464px;
+    background-position: -545px -190px;
     height: 225px;
     width: 225px;
-    margin-left: 53px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 #Image_2 {
     background: url(Images/spriteSheet.png);
-    background-position: -20px -464px;
+    background-position: -840px -191px;
     height: 225px;
     width: 225px;
-    margin-left: 53px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 #Image_3 {
     background: url(Images/spriteSheet.png);
-    background-position: -20px -464px;
+    background-position: -283px -190px;
     height: 225px;
     width: 225px;
-    margin-left: 53px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 #Image_4 {
     background: url(Images/spriteSheet.png);
-    background-position: -20px -464px;
+    background-position: -13px -181px;
     height: 225px;
     width: 225px;
-    margin-left: 53px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+div.Footer {
+    width: 1500px;
+    height: 400px;
+    background: url(Images/Portada_2.jpg) 0px -100px;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+
+div.Red_Box {
+    display: block;
+    position: relative;
+    width: 750px;
+    height: 300px;
+    background-color: rgba(252,48,60,0.8);
+    margin: 0 auto;
+    right:3%;
+    top:50px;
 }
 
 a.button_test:active {
@@ -226,3 +256,24 @@ a.button_test:active
   background-image: url("Images/button_1.png");
 }
 
+footer
+{
+    background-color:black;
+    height:40px;
+}
+
+.Footer_left {
+    color: white;
+    margin:10px;
+    background-color: transparent;
+    width: 80%;
+    float: left;
+}
+
+.Footer_right {
+    color: white;
+    margin: 10px;
+    background-color: transparent;
+    width: 10%;
+    float: right;
+}
