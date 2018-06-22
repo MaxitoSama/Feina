@@ -1,4 +1,4 @@
-html 
+html
 {
     background-color: rgba(135, 133, 129, 1);
     margin: 0;
@@ -11,7 +11,7 @@ html
 }
 
 header {
- 
+
     background-color: black;
 }
 
@@ -195,6 +195,12 @@ p.Info_titles
     margin-top: 30px;
     margin-left: 25px;
     margin-bottom: 30px;
+  }
+
+#Image_1 a{
+  border: 2px solid white;
+  padding-bottom: 225px;
+  padding-right: 225px;
 }
 
 #Image_2 {
@@ -207,6 +213,12 @@ p.Info_titles
     margin-bottom: 30px;
 }
 
+#Image_2 a{
+
+  border: 2px solid white;
+  padding-bottom: 225px;
+  padding-right: 225px;
+}
 #Image_3 {
     background: url(Images/spriteSheet.png);
     background-position: -283px -190px;
@@ -217,6 +229,12 @@ p.Info_titles
     margin-bottom: 30px;
 }
 
+#Image_3 a{
+
+  border: 2px solid white;
+  padding-bottom: 225px;
+  padding-right: 225px;
+}
 #Image_4 {
     background: url(Images/spriteSheet.png);
     background-position: -13px -181px;
@@ -225,6 +243,14 @@ p.Info_titles
     margin-top: 30px;
     margin-left: 25px;
     margin-bottom: 30px;
+}
+
+
+#Image_4 a{
+
+  border: 2px solid white;
+  padding-bottom: 225px;
+  padding-right: 225px;
 }
 
 div.Footer {
@@ -240,13 +266,62 @@ div.Footer {
 div.Red_Box {
     display: block;
     position: relative;
-    width: 750px;
+    width: 850px;
     height: 300px;
     background-color: rgba(252,48,60,0.8);
     margin: 0 auto;
     right:3%;
     top:50px;
 }
+
+.The_Image
+{
+  display: block;
+  position: relative;
+  float: left;
+  left:30px;
+  top:70px;
+}
+
+.Box_Text
+{
+  width: 300px;
+  height: 300px;
+  display: block;
+  position: relative;
+  float:right;
+  right: 70px;
+  color: white;
+}
+
+#P1{
+  text-align: center;
+  font-size: 20pt;
+}
+
+#P2{
+  font-size: 16pt;
+  margin-left: 30px;
+}
+
+div.Link_contact
+{
+  border-radius: 25px;
+  border: 2px solid white;
+  width:100px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 30px;
+  padding: 10px;
+
+}
+
+#Contacta_Button
+{
+  color: white;
+  font-size: 16pt;
+}
+
 
 a.button_test:active {
     background-image: url("Images/button_1.png");
