@@ -167,19 +167,19 @@ div.Menu_Portada
     float: left;
     width: 250px;
     min-height: 100px;
-    margin-left: 90px;
+    margin-left: 75px;
 }
 #Column_3 {
-    float: right;
+    float: left;
     width: 250px;
     min-height: 100px;
-    margin-right: 80px;
+    margin-left:75px;
 }
 #Column_4 {
-    float: right;
+    float: left;
     width: 250px;
     min-height: 100px;
-    margin-right: 50px;
+    margin-left: 75px;
 }
 
 p.Info_titles
@@ -198,7 +198,6 @@ p.Info_titles
   }
 
 #Image_1 a{
-  border: 2px solid white;
   padding-bottom: 225px;
   padding-right: 225px;
 }
@@ -214,11 +213,10 @@ p.Info_titles
 }
 
 #Image_2 a{
-
-  border: 2px solid white;
   padding-bottom: 225px;
   padding-right: 225px;
 }
+
 #Image_3 {
     background: url(Images/spriteSheet.png);
     background-position: -283px -190px;
@@ -230,11 +228,10 @@ p.Info_titles
 }
 
 #Image_3 a{
-
-  border: 2px solid white;
   padding-bottom: 225px;
   padding-right: 225px;
 }
+
 #Image_4 {
     background: url(Images/spriteSheet.png);
     background-position: -13px -181px;
@@ -245,10 +242,8 @@ p.Info_titles
     margin-bottom: 30px;
 }
 
-
-#Image_4 a{
-
-  border: 2px solid white;
+#Image_4 a
+{
   padding-bottom: 225px;
   padding-right: 225px;
 }
