@@ -28,6 +28,11 @@ body {
     margin-top: 0px;
 }
 
+.Contact
+{
+  height: 1350px;
+}
+
 p
 {
   font-size: 12pt;
@@ -346,4 +351,111 @@ footer
     background-color: transparent;
     width: 10%;
     float: right;
+}
+
+/*Contacta + maps*/
+
+#Contacta_title
+{
+  font-family:sans-serif;
+  font-size: 30pt;
+  border: 1px red ;
+  font-weight: 100;
+  text-align: center;
+  color:  rgba(252,48,60,1);
+}
+
+.mapouter {
+  text-align:right;
+  height:600px;
+  width:1500px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:1000px;
+  width:1400px;
+}
+
+.Correo_title{
+  height: 60px;
+  font-size: 20pt;
+  color:red;
+  text-align: center;
+  margin-top: 25px;
+}
+
+form
+{
+  background: rgba(252,48,60,0.9);
+}
+
+.Mail-Name{
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 45px;
+  width: 1350px;
+  font-size: 20pt;
+  background: white;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid  rgba(252,48,60,1);
+}
+
+.Mail{
+  margin-top: 10px;
+  margin-left: 25px;
+  height: 45px;
+  width: 1350px;
+  font-size: 20pt;
+  background: white;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid  rgba(252,48,60,1);
+}
+
+.Message{
+  margin-top: 10px;
+  vertical-align: middle;
+  margin-left: 25px;
+  width: 1345px;
+  font-size: 20pt;
+  background: white;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid  rgba(252,48,60,1);
+}
+
+.Enviar
+{
+  color:black;
+  background: grey;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid  rgba(252,48,60,1);
+  margin-top: 10px;
+  width: 1350px;
+  height: 40px;
+  font-size: 16pt;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.Enviar:hover
+{
+  color:black;
+  background: white;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid  rgba(252,58,90,1);
+  margin-top: 10px;
+  width: 1350px;
+  height: 40px;
+  font-size: 16pt;
+  margin-left: 25px;
+  margin-bottom: 30px;
 }
