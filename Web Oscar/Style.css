@@ -356,30 +356,50 @@ footer
 /* Productos*/
 
 #Product_Title {
-
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 60px;
     text-align: center;
-    font-size:30pt;
-    font-weight:bold;
-    background:white;
+    font-size: 15pt;
+    font-weight: bold;
+    background: url(Images/Portada_3.jpg) -200px -500px;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
 }
+
+#Product_Title div{
+    display:block;
+    position:relative;
+    top:10px;
+}
+
+#Product_Title h1 {
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: -1px 0 black;
+    filter: brightness(200%);
+}
+
 
 .Full_page{
     display:block;
     position:relative;
     left:75px;
-    height:1000px;
+    height:1250px;
     width:1250px;
     background:white;
 }
 
 .card {
     float: left;
-    margin-top:50px;
-    margin-left:150px;
-    width:200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
 }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .container{
     text-align:center;
 }
