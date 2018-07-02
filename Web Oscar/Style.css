@@ -417,16 +417,23 @@ footer
 .Product_Name{
     display:block;
     position:relative;
-    top:10px;
+    top:30px;
     font-weight:600;
     text-align:center;
     font-size:30pt;
 }
 
-.Product_Image{
-    width:500px;
+.Product_Image {
+    margin-top:70px;
+    margin-left: 50px;
+    float:left;
 }
 
+Gallery {
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+}
 /*Contacta + maps --------------------------------------*/
 #Contacta_title {
     font-family: sans-serif;
@@ -434,7 +441,7 @@ footer
     font-weight: 600;
     text-align: center;
     color: rgba(252,48,60,1);
-    background:white;
+    background: white;
 }
 
 .mapouter {
