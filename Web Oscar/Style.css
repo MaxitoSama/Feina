@@ -552,7 +552,21 @@ footer
      font-size: 14pt;
  }
 
-    /*Contacta + maps --------------------------------------*/
+ /*Servicios -----------------------------------------------*/
+
+.Services{
+
+}
+
+.Services h1{
+    text-align:center;
+}
+
+.S_row{
+
+}
+
+/*Contacta + maps --------------------------------------*/
 #Contacta_title {
     font-family: sans-serif;
     font-size: 30pt;
