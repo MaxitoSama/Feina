@@ -495,8 +495,8 @@ footer
     height: 600px;
     width: 1350px;
     border-radius: 25px;
-    border: 5px solid black;
-    background: red;
+    border: 5px solid white;
+    background: rgba(255,40,40,1);
     margin-top: 70px;
     margin-left: 20px;
 }
@@ -528,13 +528,13 @@ footer
 
 .Product_Info {
     border-radius: 25px;
-    background: rgba(252,48,60,1);
+    background: rgba(255,40,40,1);
     float: left;
     margin-top: 50px;
     margin-left: 2.5%;
     width: 94%;
     color: white;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
  .Product_Info h2
@@ -581,7 +581,7 @@ footer
     text-align: center;
     color: white;
     float: left;
-    background: rgb(0, 180, 180);
+    background: rgba(255,40,40,1);
     height: 225px;
     width: 995px;
     margin: 0 auto;
