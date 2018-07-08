@@ -460,9 +460,11 @@ footer
 
 .card {
     float: left;
+    height: 250px;
     margin-top: 50px;
     margin-left: 150px;
     width: 200px;
+    border: 2px solid rgba(252,48,60,0.7);
 }
 
 .card:hover {
