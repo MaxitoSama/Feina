@@ -138,16 +138,32 @@ div.Portada {
 	left:0;
 }
 
-div.Menu_Portada
-{
-    position:relative;
-    display:block;
-    background-color:black;
-    width:700px;
-    height:500px;
-    margin:0 auto;
-    right:5%;
-    top:10%;
+div.Menu_Portada {
+    position: relative;
+    display: block;
+    background-color: rgba(100,100,100,0.7);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 110px;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    right: 4%;
+    top: 7%;
+    border-radius: 25px;
+    border: 5px solid rgba(252,48,60,1);
+}
+
+.Image_Portada {
+    position: relative;
+    display: block;
+    background: url(Images/Logo4-copia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 110px;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
 }
 
 #Info {
