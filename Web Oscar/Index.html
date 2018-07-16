@@ -4,6 +4,7 @@
     <title > Drassen | Máquinas de Calidad</title>
     <link rel="icon"  href="Images\Logo_Web.png" type="image/png" size="16x16"/>
     <link href="Style.css" type="text/css" rel="stylesheet"/>
+    <script src="Gallery.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
@@ -27,12 +28,36 @@
 
     <div class="Portada">
         <div class="Menu_Portada">
-            <div class="Image_Portada">
 
+            <div class="Gallery_Images fade" style=" background-color: rgba(100,100,100,0.7);border-radius: 25px;">
+                <img src="Images/Logo4-copia.png" style="width:100%; height: 500px;">
             </div>
-        </div>
-    </div>
 
+            <div class="Gallery_Images fade">
+                <img src="Images/20180512_202201.jpg" style="width:100%; height: 500px;border-radius: 25px;">
+            </div>
+
+            <div class="Gallery_Images fade" style=" background-color: rgba(100,100,100,0.7);border-radius: 25px;">
+                <img src="Images/world_map.png" style="width:100%;height: 500px;">
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div  style="text-align:center">
+                <div class="cercles">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <script>ShowSlides(imageIndex)</script>
+
+    </div>
     <hr />
 
     <div id="Info">
@@ -59,7 +84,7 @@
             truly dynamic pages without learning code
         </div>
 
-      <div id="Column_4">
+        <div id="Column_4">
             <div id="Image_4"><a href="Contacta.html"></a></div>
             <p class="Info_titles">Contacta</p>
             Divi will change the way you build
@@ -75,13 +100,15 @@
         <div class="Image_Footer">
             <div class="Red_Box">
                 <div class="The_Image">
-                  <img src="Images\Logo4.png" width="400"/>
+                    <img src="Images\Logo4.png" width="400" />
                 </div>
                 <div class="Box_Text">
-                  <p id="P1">Habla con nosotros</p>
-                  <p id="P2">Direcció osdnfoine wiefawi osidfownf osdnfofnw osndfowne oofwojf oabfwub
-                  ofwaobwb</p>
-                  <div class="Link_contact"><a id="Contacta_Button" href="Contacta.html">Contacta</a></div>
+                    <p id="P1">Habla con nosotros</p>
+                    <p id="P2">
+                        Direcció osdnfoine wiefawi osidfownf osdnfofnw osndfowne oofwojf oabfwub
+                        ofwaobwb
+                    </p>
+                    <div class="Link_contact"><a id="Contacta_Button" href="Contacta.html">Contacta</a></div>
                 </div>
             </div>
         </div>
@@ -94,7 +121,7 @@
             Drassen Packaging S.L
         </div>
         <div class="Footer_right">
-              Facebook | Twitter
+            Facebook | Twitter
         </div>
     </footer>
 </body>
