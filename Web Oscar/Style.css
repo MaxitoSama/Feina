@@ -574,9 +574,9 @@ footer
     margin-right: 50px;
 }
 
-.Gallery_row{
-    width:600px;
-    height:200px;
+.Gallery_row {
+    width: 600px;
+    height: 200px;
 }
 
 .Gallery_row img{
@@ -611,10 +611,14 @@ footer
      font-size: 14pt;
  }
 
- /*Servicios -----------------------------------------------*/
+.Product_Slide {
+    display: inline-block;
+}
 
-.Services{
-    height:1400px;
+
+/*Servicios -----------------------------------------------*/
+.Services {
+    height: 1400px;
 }
 
 .Services h1{
