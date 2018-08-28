@@ -513,8 +513,8 @@ footer
 .Full_page {
     display: block;
     position: relative;
-    left: 75px;
-    height: 1250px;
+    left: 72px;
+    height: 1190px;
     width: 1250px;
     background: white;
     border-left: 5px solid rgba(135, 133, 129, 1);
@@ -523,11 +523,15 @@ footer
 
 .card {
     float: left;
-    height: 250px;
+    height: 225px;
     margin-top: 50px;
     margin-left: 150px;
     width: 200px;
     border: 2px solid rgba(252,48,60,0.7);
+}
+
+.card img{
+  width: 200px;
 }
 
 .card:hover {
@@ -536,6 +540,12 @@ footer
 
 .container{
     text-align:center;
+}
+
+.container h4{
+  display: block;
+  margin-top: 15%;
+  font-size: 16pt;
 }
 
 /* Product format --------------------------------------*/
@@ -691,14 +701,33 @@ footer
     margin-left: 100px;
     margin-right: 25px;
 }
-    /*Contacta + maps --------------------------------------*/
+/*Contacta + maps --------------------------------------*/
     #Contacta_title {
     font-family: sans-serif;
-    font-size: 30pt;
+    font-size: 15pt;
+    height: 60px;
     font-weight: 600;
     text-align: center;
     color: rgba(252,48,60,1);
     background: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: rgba(252,48,60,0.7);
+}
+
+#Contacta_title div{
+    display:block;
+    position:relative;
+    top:10px;
+}
+
+#Contacta_title h1 {
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: -1px 0 black;
+    filter: brightness(200%);
 }
 
 .mapouter {
